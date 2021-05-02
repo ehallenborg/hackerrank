@@ -1,0 +1,18 @@
+The regression line of y on x is 3x + 4y + 9 = 0, 
+and the regression line of x on y is 4x + 3y + 7 = 0. 
+
+What is the value of the Pearson correlation coefficient?
+
+Answer: -3/4
+
+y = a1 + b1x
+
+x = a2 + b2y
+
+b1 = (pearson_correlation)*(Y_standard_deviation/X_standard_deviation)
+
+b2 = (pearson_correlation)*(X_standard_deviation/Y_standard_deviation)
+
+if b1 == b2:
+    X_standard_deviation = Y_standard_deviation
+    pearson_correlation = b1 = b2
